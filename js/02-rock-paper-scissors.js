@@ -42,7 +42,7 @@ function main() {
     displayTitle()
     let playAgain = 'y'
     while (playAgain === 'y') {
-        playGame();
+        playGame()
         do {
             playAgain = prompt('Do you want to play again? (y or n)')
         } while (!(playAgain === 'y' || playAgain === 'n'))
